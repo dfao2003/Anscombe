@@ -8,10 +8,10 @@
 ---
 ##### **Práctica 1**  
 ---
-Estudiante: **David Fernando Alvarado Orellana**  
-Ciclo: Octavo Ciclo 
-Docente: Rodolfo Xavier Bojorque Chasi
-Materia: Minería de Datos
+- **Estudiante:** David Fernando Alvarado Orellana  
+- **Ciclo:** Octavo Ciclo 
+- **Docente:** Rodolfo Xavier Bojorque Chasi
+- **Materia:** Minería de Datos
 </div>
 
 ---
