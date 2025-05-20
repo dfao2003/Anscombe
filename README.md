@@ -1,11 +1,12 @@
 <div align="center">
+
 ![UPS Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0xScveNFCW3xZWdROhdo491JguVTqCngLFA&s)
 
 #### Universidad Politécnica Salesiana  
 #### Carrera de Ciencias de la Computación  
 #### Período Académico: 2025 - 2025  
 ---
-##### **Practica 1**  
+##### **Práctica 1**  
 ---
 Estudiante: **David Fernando Alvarado Orellana**  
 Ciclo: Octavo Ciclo 
@@ -13,29 +14,38 @@ Docente: Rodolfo Xavier Bojorque Chasi
 Materia: Minería de Datos
 </div>
 
+---
+
 <div>
 
 ### 📘 Introducción teórica al Cuarteto de Anscombe
 
-El cuarteto de Anscombe es un ejemplo modal que demuestra la importancia de la visualización de datos. Este fue creada en el año 1973 por el estadístico *Francis Anscombe* para destacar la importancia de los datos antes de analizarlos con propiedades estadísticas. Este consta de 4 conjuntos de datos cada uno los cuales se encuentran conformados por 11 puntos(x,y). El principal aspecto de estos conjuntos de datos es que comparten las mismas estadisticas descriptivas.
+El Cuarteto de Anscombe es un ejemplo clásico que demuestra la importancia de la visualización de datos en el análisis estadístico. Fue creado en 1973 por el estadístico *Francis Anscombe* con el objetivo de evidenciar que varios conjuntos de datos pueden compartir las mismas medidas estadísticas, pero presentar patrones muy diferentes cuando se grafican.
 
-**Estadisticas Descriptivas**
+Este cuarteto consta de cuatro conjuntos de datos, cada uno conformado por 11 puntos (x, y), que tienen prácticamente los mismos valores en las siguientes estadísticas descriptivas:
 
-- Media de X
-- Media de Y
-- Varianza de X
-- Varianza de Y
-- Desviación estándar de X
-- Desviación estándar de Y
-- Correlación entre X y Y (coeficiente de correlación de Pearson)
-- Pendiente de la recta de regresión lineal (Y respecto a X)
-- Intercepto de la recta de regresión lineal
-- Error cuadrático medio (MSE) de la regresión lineal
-- Coeficiente de determinación (R²) de la regresión lineal
+**Estadísticas Descriptivas**
 
-El analisis de estos cuatro conjuntos de datos es batante similar pero la momento de graficarlo muestra distintos comportamientos.
+- Media de X  
+- Media de Y  
+- Varianza de X  
+- Varianza de Y  
+- Desviación estándar de X  
+- Desviación estándar de Y  
+- Correlación entre X y Y (coeficiente de correlación de Pearson)  
+- Pendiente de la recta de regresión lineal (Y respecto a X)  
+- Intercepto de la recta de regresión lineal  
+- Error cuadrático medio (MSE) de la regresión lineal  
+- Coeficiente de determinación (R²) de la regresión lineal  
 
-![Cuarteto de Anscombe](https://miro.medium.com/v2/resize:fit:640/format:webp/0*wWbDNUNzvijOrt5i)
+Aunque estas métricas son prácticamente idénticas entre los cuatro conjuntos, al graficarlos se evidencian distribuciones totalmente diferentes, lo que demuestra que confiar únicamente en los cálculos estadísticos puede llevar a interpretaciones erróneas de los datos.
+
+El Cuarteto de Anscombe es una herramienta didáctica muy útil en minería de datos, ya que refuerza la necesidad de realizar un análisis exploratorio visual antes de aplicar técnicas avanzadas.
+
+![Cuarteto de Anscombe](https://media.licdn.com/dms/image/v2/C4D12AQFaVqfiFc6lSQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1651978137592?e=2147483647&v=beta&t=6epXBEMVNI7GVI4PKLgMnr0mNaEuWAcdCKYb3LjeRG8)
+
+**Bibliografía**  
+Usman, M. (2019, noviembre 3). *Anscombe’s Quartet: An Importance of Data Visualization*. Medium. https://medium.com/analytics-vidhya/anscombes-quartet-an-importance-of-data-visualization-856b3d1bd403
 
 </div>
 
