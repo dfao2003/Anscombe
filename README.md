@@ -1,6 +1,6 @@
 <div align="center">
 
-![UPS Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0xScveNFCW3xZWdROhdo491JguVTqCngLFA&s)
+![UPS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_Universidad_Polit%C3%A9cnica_Salesiana_del_Ecuador.png/640px-Logo_Universidad_Polit%C3%A9cnica_Salesiana_del_Ecuador.png)
 
 #### Universidad Politécnica Salesiana  
 #### Carrera de Ciencias de la Computación  
