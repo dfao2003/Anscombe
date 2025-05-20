@@ -1,6 +1,6 @@
 <div align="center">
 
-![UPS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Universidad_Politecnica_Salesiana_logo.svg/320px-Universidad_Politecnica_Salesiana_logo.svg.png)
+![UPS Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0xScveNFCW3xZWdROhdo491JguVTqCngLFA&s)
 
 # Universidad Politécnica Salesiana  
 ## Carrera de Ciencias de la Computación  
