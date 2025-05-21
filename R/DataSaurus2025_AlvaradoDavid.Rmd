@@ -1,0 +1,107 @@
+---
+title: "DataSaurus 2025"
+author: "David Alvarado"
+date: "2025-04-03"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## DataSaurus 2025
+
+### Importación de las librerias
+Importación de las librerías pertinentes.
+
+```{r}
+library(tidyverse)
+library(datasauRus)
+library(dplyr)
+library(ggplot2)
+```
+
+### Resumen del dataset: 
+Resumen que contiene datos sobre la media, desviación estándar y correlación.
+
+```{r}
+datasaurus_dozen %>%
+    group_by(dataset) %>%
+    summarize(
+      mean_x = mean(x),
+      mean_y = mean(y),
+      std_dev_x = sd(x),
+      std_dev_y = sd(y),
+      corr_x_y = cor(x,y)
+    ) 
+```
+
+### Gráfico del dataset:
+Muestra de los datos que proporciona el dataset.
+
+```{R}
+ggplot(datasaurus_dozen, aes(x=x, y = y, colour = dataset))+
+  geom_point()+
+  theme_void()+
+  theme(legend.position = "none")+
+  facet_wrap(~dataset, ncol=3)
+```
+
+### Categoría: Away
+Filtrado por la categoría Away. En este código se mostrará cómo lograrlo.
+
+```{r}
+
+dino_data = datasaurus_dozen %>% filter(dataset == "away")
+
+ggplot(dino_data, aes(x=x, y = y, colour = dataset))+
+  geom_point()+
+  theme_void()+
+  theme(legend.position = "none")+
+  facet_wrap(~dataset, ncol=1)
+
+```
+
+### Función lm()
+Se graficará una regresión lineal para la categoría filtrada anteriormente, lo cual se logra con el código mostrado a continuación:
+
+```{r}
+modelo <- lm(y ~ x, data = dino_data)
+summary(modelo)
+
+# Graficar los puntos de datos
+plot(dino_data$x, dino_data$y, main = "Regresión Lineal", 
+     xlab = "X", ylab = "Y", pch = 19, col = "red")
+
+# Agregar la línea de regresión
+abline(modelo, col = "blue", lwd = 2)
+
+```
+
+### Imagen Dibujada
+Se instala la librería "jpeg", la cual es necesaria para mostrar la imagen. Luego simplemente se muestra con el código siguiente:
+
+```{r}
+# Instala el paquete jpeg si no lo tienes
+if (!require(jpeg)) {
+  install.packages("jpeg")
+  library(jpeg)
+} else {
+  library(jpeg)
+}
+
+# Ruta de la imagen
+ruta_imagen <- "imagen.jpeg"
+
+# Leer la imagen
+imagen <- readJPEG(ruta_imagen)
+
+# Abrir dispositivo gráfico
+plot(1:2, type='n', xlab="", ylab="", axes=FALSE)
+
+# Mostrar la imagen
+rasterImage(imagen, 1, 1, 2, 2)
+
+```
