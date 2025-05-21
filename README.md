@@ -47,5 +47,8 @@ El Cuarteto de Anscombe es una herramienta didáctica muy útil en minería de d
 **Bibliografía**  
 Usman, M. (2019, noviembre 3). *Anscombe’s Quartet: An Importance of Data Visualization*. Medium. https://medium.com/analytics-vidhya/anscombes-quartet-an-importance-of-data-visualization-856b3d1bd403
 
+> ⚠️ **Importante:** El directorio Regresión no se creó por el motivo que ya se encuentra en este en el directorio R.
+
+
 </div>
 
